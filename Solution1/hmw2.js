@@ -1,13 +1,13 @@
 function isPalindrome(word)
 {
-	var str;
+	var str = "";
 	if(word.length > 1)
 	{
-		isPalindrome(substring(word,1));
+		return isPalindrome(word.substring(1)) + word.charAt(0);
 	}
 	else
 	{
-		str += word.charAt(0);
+		return str += word.charAt(0);
 	}
 	
 	return str;
