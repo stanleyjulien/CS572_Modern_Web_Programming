@@ -1,0 +1,6 @@
+mongodb alway return promise
+
+simmilar to quizz
+pratice callback and promises
+revise all lecture and understand (skip the JavaScript review lecture)
+and some small programming not long
